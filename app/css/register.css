@@ -1,0 +1,59 @@
+form {
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	padding: 0.5rem;
+	background-color: #fff;
+}
+
+form * {
+	transition: 0.5s;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	font-size: 1rem;
+	margin-top: 0.4rem;
+}
+
+form #register {
+	transition: 0.1s;
+	padding: 0.2rem;
+	background-color: dodgerblue;
+	color: white;
+}
+
+form *:focus {
+	border-bottom: 1px solid black;
+}
+
+form *::placeholder {
+	color: gray;
+	transition: 0.3s;
+}
+
+form *:focus::placeholder {
+	color: black;
+	font-size: 1.1em;
+	opacity: 0.3;
+}
+
+form #register:hover {
+	box-shadow: 1px 1px 3px black;
+	cursor: pointer;
+}
+
+#errorBox {
+	border: 1px solid red;
+	background-color: rgba(204, 112, 112, 0.623);
+	margin: 0.3rem;
+	padding: 0.3rem;
+	font-size: 0.9rem;
+	color: rgb(219, 48, 48);
+	margin-top: 1rem;
+}
+
+#errorBox * {
+	border: none;
+	margin: 0;
+	padding: 0;
+}

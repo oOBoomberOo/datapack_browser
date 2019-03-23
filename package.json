@@ -1,0 +1,33 @@
+{
+  "name": "datapack_browser",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "command.log(\"Hello, World!\");",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oOBoomberOo/datapack_browser.git"
+  },
+  "author": "Boomber",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/oOBoomberOo/datapack_browser/issues"
+  },
+  "homepage": "https://github.com/oOBoomberOo/datapack_browser#readme",
+  "dependencies": {
+    "electron": "^4.0.3",
+    "electron-oauth-helper": "^3.0.0",
+    "express": "^4.16.4",
+    "firebase": "^5.9.1",
+    "firebase-admin": "^7.1.1",
+    "grpc": "^1.19.0",
+    "jquery": "^3.3.1",
+    "query-string": "^6.4.0"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.8.4"
+  }
+}
